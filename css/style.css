@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    padding: 200px 25px 25px 25px;
+}
+
+.jumbotron img {
+    max-width: 300px;
+}
