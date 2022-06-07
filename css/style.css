@@ -3,12 +3,16 @@ body {
 }
 
 
-.jumbotron {
+.ms_jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     padding: 200px 25px 25px 25px;
 }
 
-.jumbotron img {
+.ms_jumbotron img {
     max-width: 300px;
+}
+
+.ms_thumb-img {
+    width: 100%;
 }
