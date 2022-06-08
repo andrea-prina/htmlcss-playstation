@@ -1,4 +1,8 @@
 /* GENERAL & COLORS */
+:root {
+    --main-color1: #0070D1;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,8 +27,30 @@ body {
     background-color: #FFF;
 }
 
+.ms_rounded {
+    border-radius: 25px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 500;
+    color: grey;
+}
+
+h6 {
+    color: var(--main-color1);
+    margin: 0;
+    font-weight: 600;
+}
 
 /* HEADER & NAVBAR */
+
+.ms_head {
+    z-index: 10; /* Necessario perchè di default Bootstrap da z-index maggiore ad element hover */
+}
 
 .ms_sony-logo {
     width: 75px;
@@ -56,21 +82,31 @@ body {
     margin-left: -1em;
 }
 
-
-
 .ms_jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
-    padding: 200px 25px 25px 25px;
+    padding: 200px 50px 50px 50px;
     margin-top: 100px;
 }
 
 
 
-
 /* MAIN */
+.game-thumb:hover {
+    transform: translate(0px, -20px);
+}
+
 .ms_game-logo {
     max-width: 300px;
+}
+
+.ms_item-thumb {
+    opacity: 50%;
+}
+
+.ms_item-active, .ms_item-thumb:hover {
+    opacity: 100%;
+    border-bottom: 3px solid var(--main-color1);
 }
 
 .ms_upcoming-game {
