@@ -14,8 +14,57 @@
     <header>
       <!-- FIXED ELEMENT -->
       <div>
-        <div>LOGO SONY</div>
-        <nav>NAVBAR</nav>
+        <div class="position-fixed start-0 end-0 top-0">
+          <div class="bg-dark d-flex justify-content-end align-items-center p-2"><img src="./img/sony_logo.svg" alt="" class="ms_sony-logo"></div>
+          <nav class="navbar navbar-expand-lg navbar-light ms_bgc-4 position-static">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                  <li class="nav-item dropdown position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Giochi
+                    </a>
+                    <div class="dropdown-menu w-100 mt-0 border-0 rounded-0" aria-labelledby="navbarDropdownMenuLink">
+                      <!-- Selezione Console -->
+                      <div class="d-flex justify-content-center">
+                        <ul class="list-unstyled d-flex justify-content-around w-50">
+                          <li class="text-center">
+                            <img src="./img/play-menu-ico.png" alt="" class="ms_play-ico">
+                            <div>Playstation 5</div>
+                          </li>
+                          <li class="text-center">
+                            <img src="./img/play-menu-ico.png" alt="" class="ms_play-ico">
+                            <div>Playstation 4</div>
+                          </li>
+                          <li class="text-center">
+                            <img src="./img/play-menu-ico.png" alt="" class="ms_play-ico">
+                            <div>Playstation 3</div>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- Line -->
+                      <div class="w-100 line"></div>
+                      <!-- Selezione Link -->
+                      <div class="d-flex justify-content-center">
+                        <ul class="d-flex justify-content-around w-50">
+                          <li>Link Giochi</li>
+                          <li>Link Giochi</li>
+                          <li>Link Giochi</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
 
       <!-- JUMBOTRON -->
@@ -29,6 +78,7 @@
           </div>
         </div>
       </div>
+
     </header>
 
     <main>
@@ -61,25 +111,24 @@
               <img src="./img/playstation-5-thumb.png" alt="" class="w-100">
             </div>
           </div>
-          <div class="row">
-            <!-- TODO Fix layout a 5 colonne quando in md+ -->
-            <div class="col-4 col-md">
+          <div class="row row-cols-3 row-cols-md-5">
+            <div class="col">
               <img src="./img/playstation-5-thumb.png" alt="" class="w-100">
               <p class="d-none d-md-block text-center">lorem ipsum</p>
             </div>
-            <div class="col-4 col-md">
+            <div class="col">
               <img src="./img/joypad-thumb.png" alt="" class="w-100">
               <p class="d-none d-md-block text-center">lorem ipsum</p>
             </div>
-            <div class="col-4 col-md">
+            <div class="col">
               <img src="./img/headset-thumb.png" alt="" class="w-100">
               <p class="d-none d-md-block text-center">lorem ipsum</p>
             </div>
-            <div class="col-4 col-md">
+            <div class="col">
               <img src="./img/remote-thumb.png" alt="" class="w-100">
               <p class="d-none d-md-block text-center">lorem ipsum</p>
             </div>
-            <div class="col-4 col-md">
+            <div class="col">
               <img src="./img/camera-thumb.jpg" alt="" class="w-100">
               <p class="d-none d-md-block text-center">lorem ipsum</p>
             </div>

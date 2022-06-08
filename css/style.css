@@ -1,22 +1,10 @@
+/* GENERAL & COLORS */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.ms_jumbotron {
-    background-image: url(../img/jumbo-bg.png);
-    background-position: center;
-    padding: 200px 25px 25px 25px;
-}
-
-.ms_game-logo {
-    max-width: 300px;
-}
-
-.ms_upcoming-game {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center;
-    padding: 25px
+.ms_w-40 {
+    width: 40%;
 }
 
 .ms_bgc-1 {
@@ -31,11 +19,57 @@ body {
     background-color: #00439C;
 }
 
+.ms_bgc-4 {
+    background-color: #FFF;
+}
+
+
+/* HEADER & NAVBAR */
+
+.ms_sony-logo {
+    width: 75px;
+}
+
+.ms_play-ico {
+    width: 75px;
+}
+
+.line {
+    height: 2px;
+    background-color: #BEBCBB;
+}
+
+
+
+.ms_jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    padding: 200px 25px 25px 25px;
+    margin-top: 100px;
+}
+
+
+
+
+/* MAIN */
+.ms_game-logo {
+    max-width: 300px;
+}
+
+.ms_upcoming-game {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    padding: 25px
+}
+
+
+
+
+/* FOOTER */
 footer ul a {
     color: white;
     text-decoration: none;
 }
-
 
 .play-logo {
     filter: brightness(0) invert(1);
