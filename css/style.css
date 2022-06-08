@@ -19,6 +19,29 @@ body {
     padding: 25px
 }
 
-.bgc-1 {
+.ms_bgc-1 {
     background-color: #BEBCBB;
+}
+
+.ms_bgc-2 {
+    background-color: #161C3B;
+}
+
+.ms_bgc-3 {
+    background-color: #00439C;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.play-logo {
+    filter: brightness(0) invert(1);
+    width: 100px;
+}
+
+.sie-logo {
+    width: 150px;
 }
